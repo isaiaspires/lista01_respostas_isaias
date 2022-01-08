@@ -5,7 +5,7 @@ void main() {
     ['Tande', 11, 6, 14, 12, 15, 11],
     ['Giovane', 11, 5, 10, 8, 18, 12],
     ['Paulo', 9, 2, 15, 12, 15, 10],
-    ['Carlos', 10, 3, 10, 3, 12, 8]
+    ['Carlos', 10, 3, 10, 8, 12, 8]
   ];
   String jogador = "";
   int saque = 0;
@@ -43,8 +43,7 @@ void main() {
     print('Jogador: $jogador');
     print('Saque: $saqueefet / $saque ($porcentagemsaque%)');
     print('Bloqueio: $bloqueioefet / $bloqueio ($porcentagembloqueio%)');
-    print('Ataque: $ataqueefet / $ataque ($porcentagemataque%)');
-    print("");
+    print('Ataque: $ataqueefet / $ataque ($porcentagemataque%)\n');
 
     //Somatório Saque
     int ps = time[i][1];

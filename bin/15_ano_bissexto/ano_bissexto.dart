@@ -1,9 +1,9 @@
 void main() {
-  int dias = 1900;
-  var resto = dias % 4;
+  int ano = 1900;
+  var resto = ano % 4;
   if (resto == 0) {
-    print("Ano Bissexto");
-  } else {
-    print("Não é Bissexto");
+    if (ano % 100 != 0 || ano % 400 == 0) {
+      print("Ano Bissexto");
+    }
   }
 }

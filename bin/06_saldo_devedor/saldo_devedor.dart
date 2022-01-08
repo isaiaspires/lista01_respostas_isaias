@@ -6,6 +6,12 @@ void main() {
   final totalaprox = total.toStringAsFixed(2);
   double saldo = total - (valorparc * pagas);
   final saldoaprox = saldo.toStringAsFixed(2);
-  print('Valor total do consórcio: R\$: $totalaprox');
+  print('Entrada:');
+  print('Total de Parcelas: $parcelas');
+  print('Número de Parcelas Pagas: $pagas');
+  print('Valor das Parcelas: R\$: $valorparc \n');
+
+  print('Saída:');
+  print('Valor Total do Consórcio: R\$: $totalaprox');
   print('Saldo devedor: R\$: $saldoaprox');
 }
